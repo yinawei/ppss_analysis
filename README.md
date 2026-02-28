@@ -22,9 +22,6 @@ jupyter notebook
 (2) Open the corresponding figure-x folder and run all cells.
 
 ## Reference
-<<<<<<< HEAD
 Yina Wei, Yuze Liu, Feng Xiong, Fuhui Long, Hanchuan Peng*, Brain-wide Organization of Post-Synaptic Sites: Three Principles, bioRxiv, 2026
-=======
-Yina Wei, Yuze Liu, Feng Xiong, Fuhui Long, Hanchuan Peng, Brain-wide Organization of Post-Synaptic Sites: Three Principles, bioRxiv, 2026
->>>>>>> 9d27629e5245d4528e437c9257093934e42b32b3
+
 
