@@ -16,15 +16,16 @@ pip install -r req.txt
 
 ## Prepare the data
 1) Extract all compressed files:
-   ```bash
-   cd data
-   unzip den_contact_test.csv.zip
-   unzip h01_1600_synapses_within_branch.csv.zip
-   unzip ppss_from_pacs_within_segments_branch_order_summary.csv.zip
-   cd hippo
-   unzip root.vtk.zip
-   cd ../..
-   ```
+```bash
+cd data
+unzip den_contact_test.csv.zip
+unzip h01_1600_synapses_within_branch.csv.zip
+unzip ppss_from_pacs_within_segments_branch_order_summary.csv.zip
+cd hippo
+unzip root.vtk.zip
+cd ../..
+```
+
 2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory.
 
 ## PPSS Analysis for Figures
