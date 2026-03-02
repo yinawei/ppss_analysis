@@ -31,7 +31,7 @@ cd ../..
 
 2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory.
 
-## PPSS Analysis for Figures
+## PPSS analysis for figures
 (1) Start Jupyter Notebook:
 ```bash
 cd jupyter
