@@ -13,8 +13,6 @@ conda activate ppss_analysis
 # Install dependencies
 pip install -r req.txt
 
-# Install jupyter notebook
-pip install jupyter
 ```
 
 ## Prepare the data
