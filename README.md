@@ -34,6 +34,7 @@ Please ensure that Jupyter Notebook is installed (pip install jupyter) before ru
 
 (1) Start Jupyter Notebook:
 ```bash
+cd jupyter
 jupyter notebook 
 ```
 (2) Open the corresponding figure-x folder and run all cells.
