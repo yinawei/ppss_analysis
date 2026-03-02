@@ -29,7 +29,12 @@ unzip root.vtk.zip
 cd ../..
 ```
 
-2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory.
+2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory. It might take half hours to download it. 
+```bash
+cd data
+wget https://zenodo.org/records/18831226/files/ppss_from_pacs.csv
+cd ..
+```
 
 ## PPSS analysis for figures
 (1) Start Jupyter Notebook:
