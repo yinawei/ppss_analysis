@@ -23,16 +23,17 @@ def hex2rgb(hexcolor):
            ]
     return rgb
 
-file_name = r'D:\FUDAN\project\ppss\ppss_project_20251226\jupyter\figure1\den_contact_test.csv'
+# replace it by your abs path
+file_name = '../../output/CA1_hippo_data.csv'
 
 soma_df = pd.read_csv(file_name,
                       sep=',', index_col=0)
 
-for k, v in enumerate(soma_df.target_region.unique()):
-    node = soma_df.loc[soma_df.target_region == v, ['x', 'y', 'z']].values / 25
+for k, v in enumerate(soma_df.label.unique()):
+    node = soma_df.loc[soma_df.label == v, ['soma_x', 'soma_y', 'soma_z']].values
 
 
-    color = soma_df.loc[soma_df.target_region == v, 'color'].values[0]
+    color = soma_df.loc[soma_df.label == v, 'color'].values[0]
     color = np.array(hex2rgb(color)) / 255
 
     polyPointSource1 = PolyPointSource(registrationName='PolyPointSource_bouton' + str(v))

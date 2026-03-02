@@ -24,7 +24,7 @@ def hex2rgb(hexcolor):
     return rgb
 
 # replace it by your csv abs path
-file_name = '../../data/den_contact_test.csv'
+file_name = '../../output/den_contact_test.csv'
 
 soma_df = pd.read_csv(file_name,
                       sep=',', index_col=0)
