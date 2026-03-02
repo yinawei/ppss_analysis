@@ -13,6 +13,8 @@ conda activate ppss_analysis
 # Install dependencies
 pip install -r req.txt
 
+# Install jupyter notebook
+pip install jupyter
 ```
 
 ## Prepare the data
@@ -30,8 +32,6 @@ cd ../..
 2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory.
 
 ## PPSS Analysis for Figures
-Please ensure that Jupyter Notebook is installed (pip install jupyter) before running the notebook. You may also execute the code using any preferred IDE.
-
 (1) Start Jupyter Notebook:
 ```bash
 cd jupyter
