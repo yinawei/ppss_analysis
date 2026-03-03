@@ -23,7 +23,7 @@ unzip h01_swc_rm_tiny_synapse_branch_level.csv.zip
 unzip h01_1600_synapses_within_branch.csv.zip
 unzip ppss_from_pacs_within_segments_branch_order_summary.csv.zip
 unzip ibl_cluster_tables.csv.zip
-Upzip allen_ish_gene_region.csv.zip
+unzip allen_ish_gene_region.csv.zip
 cd ..
 ```
 
