@@ -24,7 +24,6 @@ unzip h01_1600_synapses_within_branch.csv.zip
 unzip ppss_from_pacs_within_segments_branch_order_summary.csv.zip
 unzip ibl_cluster_tables.csv.zip
 unzip allen_ish_gene_region.csv.zip
-cd ..
 ```
 
 2) Download ppss_from_pacs.csv from Zenodo and move it into the data directory. It might take half hours to download it. 
